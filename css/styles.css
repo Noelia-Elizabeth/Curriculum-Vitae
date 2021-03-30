@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+    background-color: rgb(188, 238, 238);
+}
+
+main {
+    text-align: left;
+    max-width: 50%;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+h1 {
+    background-color: lightskyblue;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h1, h2, footer {
+    background-color: lightblue;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(211, 240, 240);
+}
+
+span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#parrafo {
+    color: linen;
+    text-align: center;
+}
+
+#mi-foto {
+    width: 15%;
+}
