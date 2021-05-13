@@ -1,0 +1,56 @@
+$colorPrimary : lightskyblue;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(211, 240, 240);
+    header {
+        text-align: center;
+        background-color: rgb(188, 238, 238);
+        h1 {
+            background-color: $colorPrimary;
+            font-size: 50px;
+            text-transform: uppercase;
+        }
+        #mi-foto {
+            width: 15%;
+        }
+    }
+    main {
+        text-align: left;
+        max-width: 50%;
+        margin: 0 auto;
+        font-size: 25px;
+        section {
+            h2 {
+                font-size: 32px;
+                background-color: $colorPrimary;
+                text-transform: uppercase;
+            }
+            ul {
+                li {
+                    span {
+                        font-weight: bold;
+                        font-style: italic;
+                    }
+                }
+            }
+            dl {
+                dt{
+                    span {
+                        font-weight: bold;
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        background-color: lightblue;
+        text-transform: uppercase;
+        #parrafo {
+            color: linen;
+            text-align: center;
+        }
+    }
+}
+
